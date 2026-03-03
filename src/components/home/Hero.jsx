@@ -22,7 +22,7 @@ export const Hero = () => {
               />
             </h1>
             <p data-aos='fade-left'>{val.desc}</p>
-            <a href={resume} target="_blank" download={resume}>
+            <a href={resume} target="_blank" rel="noopener noreferrer" download={resume}>
               <button className='primaryBtn' data-aos='fade-up-right'>
                 Download CV
               </button></a>
